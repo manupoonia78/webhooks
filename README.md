@@ -7,11 +7,22 @@ Requirements
 
 
 Dependencies : "dotenv": "^10.0.0",
+
+
                "express": "^4.17.1",
+               
+               
                "moleculer": "^0.14.15",
+               
+               
                "mongo": "^0.1.0",
+               
+               
               "mongodb": "^4.0.0",
+              
+              
               "request": "^2.88.2"
+              
 
 Create a database named webhooks
 
@@ -36,12 +47,16 @@ $ npm start
 
 Make a POST Request to the localhost:3000/register route
 with json body
+
+
 e.g - { "taregtURL": "https://google.com" }
 
 ## To Update a targetURL
 
 Make a  PUT Request to the localhost:3000/update route
 with json body
+
+
 e.g - { "id": "60f2c2ec4c248f0849f0d017",
           "newTargetUrl" : "https://facebook.com"}
           
@@ -55,12 +70,14 @@ e.g - { "id": "60f2c2ec4c248f0849f0d017",
  Make a DELETE Request to the localhost:3000/delete route 
  with the body containing id of the webhook you want to delete
  
+ 
  e.g - { "id" : "60f2c2ec4c248f0849f0d017" } 
  
  
  ## To Trigger all the Registered Webhooks
  Make a GET Request to the localhost:3000/ip route 
  with the header containing the ip address
+ 
  
  e.g - Key: x-forwarded-for
        Value: 192.168.20.10
