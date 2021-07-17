@@ -6,22 +6,19 @@ Requirements
 3. npm
 
 
-Dependencies : "dotenv": "^10.0.0",
+Dependencies : 
 
+"dotenv": "^10.0.0",
 
-               "express": "^4.17.1",
-               
-               
-               "moleculer": "^0.14.15",
-               
-               
-               "mongo": "^0.1.0",
-               
-               
-              "mongodb": "^4.0.0",
-              
-              
-              "request": "^2.88.2"
+"express": "^4.17.1",
+
+"moleculer": "^0.14.15",
+
+"mongo": "^0.1.0",
+
+"mongodb": "^4.0.0",
+
+"request": "^2.88.2"
               
 
 Create a database named webhooks
